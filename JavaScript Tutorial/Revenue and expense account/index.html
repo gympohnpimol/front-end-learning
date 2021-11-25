@@ -15,22 +15,22 @@
         <h1 id="balance">0.00</h1>
         <div class="income-expense-container">
             <div>
-                <h4>Revenue</h4>
+                <h4>Revenue (THB)</h4>
                 <p id="money-plus" class="money plus">5000.00</p>
             </div>
             <div>
-                <h4>Expense</h4>
-                <p id="money-minus" class="money minus">-200.00</p>
+                <h4>Expense (THB)</h4>
+                <p id="money-minus" class="money minus">200.00</p>
             </div>
         </div>
         
         <h3>Transactions</h3>
         <ul id="list" class="list">
-            <li class="minus"> Lunch <span>50 THB</span> 
-                <button class="delete-btn">x</button>
+            <li class="minus"> Lunch <span>-50 THB</span> 
+            <button class="delete-btn">x</button>
             </li>
-            <li class="plus"> Lunch <span>50 THB</span> 
-                <button class="delete-btn">x</button>
+            <li class="plus"> Lunch <span>+50 THB</span> 
+            <button class="delete-btn">x</button>
             </li>
         </ul>
         <h3>Pay Billing</h3>
@@ -42,7 +42,7 @@
             <div class="form-control">
                 <label for="text">Amount</label><br>
                 (+ Revenue, - Expense)
-                <input type="text" id="amount" placeholder="Amount">
+                <input type="number" id="amount" placeholder="Amount">
                 <h5 class="note">Please indicate sign + or -</h5>
             </div>
             <button class="btn">Add New Transaction</button>
