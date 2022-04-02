@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dark & Light Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
-    
+    <div class="theme-switch-container">
+        <span id="toggle-icon">
+            <span class="taggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+            <!-- <i class="fas fa-moon"></i> -->
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="title-group">
+            <h1>Dark vs Light Mode</h1>
+            <h2>Coding Practice</h2>
+        </div>
+    </section>
+    <section id="project">
+        <h1>Project</h1>
+        <div class="project-container">
+            <div class="image-container">
+                <h2>Web-Deverloper</h2>
+                <img src="" alt="">
+            </div>
+            <div class="image-container">
+                <h2>Game Creator</h2>
+                <img src="" alt="">
+            </div>
+            <div class="image-container">
+                <h2>Blockchain</h2>
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="social-icon">
+            <i class="fab fa-github-alt"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-medium"></i>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
