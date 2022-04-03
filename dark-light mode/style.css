@@ -146,8 +146,8 @@ input:checked + .slider::before{
 }
 
 .fab{
-    font-size: 100px;
-    margin-right: 50px;
+    font-size: 80px;
+    margin-right: 40px;
     cursor: pointer;
     color: var(--primary-color);
 }
@@ -156,4 +156,21 @@ input:checked + .slider::before{
     color:var(--text-color);
 }
 
+.project-container{
+    display: flex;
+}
 
+.image-container{
+    border: 1px solid var(--text-color-second);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 10px 20px;
+    background: var(--background);
+    margin-right: 25px;
+    width: auto;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
